@@ -1,0 +1,129 @@
+C:\Users\Administrator\Desktop\ITHero\ITHero\bin\Debug\ITHero.exe.config
+C:\Users\Administrator\Desktop\ITHero\ITHero\bin\Debug\ITHero.exe
+C:\Users\Administrator\Desktop\ITHero\ITHero\bin\Debug\ITHero.pdb
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.MainForm.resources
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.exe
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.pdb
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.BedroomForm.resources
+C:\Users\Administrator\Desktop\ITHero\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+E:\MSTF\研发教材\ITHero\ITHero\bin\Debug\ITHero.exe.config
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.exe
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.pdb
+E:\MSTF\研发教材\ITHero\ITHero\bin\Debug\ITHero.exe
+E:\MSTF\研发教材\ITHero\ITHero\bin\Debug\ITHero.pdb
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.BedroomForm.resources
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.MainForm.resources
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.SchoolForm.resources
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+E:\MSTF\研发教材\ITHero\ITHero\obj\Debug\ITHero.BuildingForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\bin\Debug\ITHero.exe.config
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.exe
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.BedroomForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.BuildingForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.MainForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.SchoolForm.resources
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\bin\Debug\ITHero.exe
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\bin\Debug\ITHero.pdb
+C:\Users\Administrator\Desktop\研发教材\ITHero\ITHero\obj\Debug\ITHero.pdb
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.BedroomForm.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.BuildingForm.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.MainForm.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.SchoolForm.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+E:\Program Files\研发教材\ITHero\ITHero\bin\Debug\ITHero.exe.config
+E:\Program Files\研发教材\ITHero\ITHero\bin\Debug\ITHero.exe
+E:\Program Files\研发教材\ITHero\ITHero\bin\Debug\ITHero.pdb
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.exe
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.pdb
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+E:\Program Files\研发教材\ITHero\ITHero\obj\Debug\ITHero.ExamPassForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\bin\Debug\ITHero.exe.config
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.exe
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.pdb
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\bin\Debug\ITHero.exe
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\bin\Debug\ITHero.pdb
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.BedroomForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.BuildingForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.ExamPassForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.MainForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.SchoolForm.resources
+E:\Program Files\研发教材\ITHero（第5章前使用）\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\bin\Debug\ITHero.exe.config
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.exe
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.pdb
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.BedroomForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.BuildingForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.ExamPassForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.MainForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.SchoolForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\bin\Debug\ITHero.exe
+E:\Program Files\研发教材\SCCE-G2-C#OOP\第01章\上机部分\上机答案\阶段一\ITHero\bin\Debug\ITHero.pdb
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\bin\Debug\ITHero.exe.config
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.exe
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.pdb
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\bin\Debug\ITHero.exe
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\bin\Debug\ITHero.pdb
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.BedroomForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.BuildingForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.ExamPassForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.MainForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.SchoolForm.resources
+E:\Program Files\研发教材\SCCE-G2-C#OOP\项目素材\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
+E:\Program Files\研发教材\SCCE-G2-C＃OOP\贯穿项目素材\ITHero\bin\Debug\ITHero.exe.config
+E:\Program Files\研发教材\SCCE-G2-C＃OOP\贯穿项目素材\ITHero\obj\Debug\ITHero.exe
+E:\Program Files\研发教材\SCCE-G2-C＃OOP\贯穿项目素材\ITHero\obj\Debug\ITHero.pdb
+D:\360云盘\美斯坦福\G2V2.0\4.使用C#实现面向对象程序设计\贯穿项目素材\ITHero\bin\Debug\ITHero.exe.config
+D:\360云盘\美斯坦福\G2V2.0\4.使用C#实现面向对象程序设计\贯穿项目素材\ITHero\obj\Debug\ITHero.exe
+D:\360云盘\美斯坦福\G2V2.0\4.使用C#实现面向对象程序设计\贯穿项目素材\ITHero\obj\Debug\ITHero.pdb
+C:\Users\Mstanford\Desktop\IT英雄贯穿项目素材\IT英雄贯穿项目素材\ITHero\bin\Debug\ITHero.exe.config
+C:\Users\Mstanford\Desktop\IT英雄贯穿项目素材\IT英雄贯穿项目素材\ITHero\obj\Debug\ITHero.exe
+C:\Users\Mstanford\Desktop\IT英雄贯穿项目素材\IT英雄贯穿项目素材\ITHero\obj\Debug\ITHero.pdb
+D:\IT英雄贯穿项目素材\IT英雄贯穿项目素材\ITHero\bin\Debug\ITHero.exe.config
+D:\IT英雄贯穿项目素材\IT英雄贯穿项目素材\ITHero\obj\Debug\ITHero.exe
+D:\IT英雄贯穿项目素材\IT英雄贯穿项目素材\ITHero\obj\Debug\ITHero.pdb
+F:\SCCE\C#OOP\IT英雄\ITHero\bin\Debug\ITHero.exe.config
+F:\SCCE\C#OOP\IT英雄\ITHero\obj\Debug\ITHero.exe
+F:\SCCE\C#OOP\IT英雄\ITHero\obj\Debug\ITHero.pdb
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\bin\Debug\ITHero.exe.config
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.exe
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.pdb
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\bin\Debug\ITHero.exe
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\bin\Debug\ITHero.pdb
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.BedroomForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.BuildingForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.CreateHeroForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.ExamPassForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.MainForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.Properties.Resources.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.SchoolForm.resources
+C:\Users\zhouy\Desktop\project_svn\trunk\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
