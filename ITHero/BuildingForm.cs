@@ -86,8 +86,26 @@ namespace ITHero
         private void lblSupermarket_Click(object sender, EventArgs e)
         {
             //1. 显示英雄金钱（请编码实现）
+			lblHeroMoney.Text = GameManager.GameInfo.Hero.Money.ToString();
             //2. 显示超市物品信息（请编码实现）
-
+			lblBreadName.Text = GameManager.GameInfo.AllGoodsList.Bread.Name;
+			lblBreadDetails.Text = GameManager.GameInfo.AllGoodsList.Bread.Details;
+			lblBreadMoney.Text = GameManager.GameInfo.AllGoodsList.Bread.Money + "￥";
+			lblCalciumName.Text = GameManager.GameInfo.AllGoodsList.Calcium.Name;
+			lblCalciumDetails.Text = GameManager.GameInfo.AllGoodsList.Calcium.Details;
+			lblCalciumMoney.Text = GameManager.GameInfo.AllGoodsList.Calcium.Money + "￥";
+			lblFlowerName.Text = GameManager.GameInfo.AllGoodsList.Flower.Name;
+			lblFlowerDetails.Text = GameManager.GameInfo.AllGoodsList.Flower.Details;
+			lblFlowerMoney.Text = GameManager.GameInfo.AllGoodsList.Flower.Money + "￥";
+			lblLotteryName.Text = GameManager.GameInfo.AllGoodsList.Lottery.Name;
+			lblLotteryDetails.Text = GameManager.GameInfo.AllGoodsList.Lottery.Details;
+			lblLotteryMoney.Text = GameManager.GameInfo.AllGoodsList.Lottery.Money + "￥";
+			lblQQStarName.Text = GameManager.GameInfo.AllGoodsList.QQStar.Name;
+			lblQQStarDetails.Text = GameManager.GameInfo.AllGoodsList.QQStar.Details;
+			lblQQStarMoney.Text = GameManager.GameInfo.AllGoodsList.QQStar.Money + "￥";
+			lblBadgeName.Text = GameManager.GameInfo.AllGoodsList.Badge.Name;
+			lblBadgeDetails.Text = GameManager.GameInfo.AllGoodsList.Badge.Details;
+			lblBadgeMoney.Text = GameManager.GameInfo.AllGoodsList.Badge.Money + "￥";
             //3. 显示超市面板
             pnlSupermarket.Visible = true;
         }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace ITHero
 	/// </summary>
 	class Parcel
 	{
-		public Goods[] goodsList;       //物品数组
-		public int[] goodsNumberList;   //物品数量数组
+		public ArrayList  GoodsList;       //物品数组
+		public ArrayList GoodsNumberList;   //物品数量数组
 	}
 }

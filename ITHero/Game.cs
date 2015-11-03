@@ -11,7 +11,7 @@ namespace ITHero
 	/// </summary>
 	class Game
 	{
-		public GoodsWarehouse AllGoodsList;     //物品库对象
+		public GoodsWarehouse AllGoodsList = new GoodsWarehouse();     //物品库对象
 		public Player Hero;         //英雄对象
 		public Parcel Pack;         //背包对象
 		public int TotalDays;       //总天数
@@ -21,7 +21,7 @@ namespace ITHero
 		public int WorkCount;       //每天的打工次数
 		public int WorkNumber;      //每天剩余的打工次数
 		public int PlayCount;       //每天的游玩次数
-		public int PlayNumber;      //每天剩余额游玩次数
+		public int PlayNumber;      //每天剩余的游玩次数
 		/// <summary>
 		/// 初始化游戏数据
 		/// </summary>
@@ -37,19 +37,19 @@ namespace ITHero
 			this.WorkNumber = this.WorkCount;
 			this.PlayNumber = this.PlayCount;
 			//初始化物品库
-			AllGoodsList = new GoodsWarehouse();
 			AllGoodsList.Init();
 			//初始化包裹（默认每种物品一个）
-			Pack.goodsList = new Goods[6];
-			Pack.goodsList[0] = AllGoodsList.Bread;
-			Pack.goodsList[1] = AllGoodsList.Calcium;
-			Pack.goodsList[2] = AllGoodsList.Flower;
-			Pack.goodsList[3] = AllGoodsList.Lottery;
-			Pack.goodsList[4] = AllGoodsList.QQStar;
-			Pack.goodsList[5] = AllGoodsList.Badge;
-			Pack.goodsNumberList = new int[6];
-			for(int i = 0; i < Pack.goodsList.Length; i++) {
-				Pack.goodsNumberList[i] = 1;
+			Pack.GoodsList = new System.Collections.ArrayList();
+			Pack.GoodsList.Add(AllGoodsList.Bread);
+			Pack.GoodsList.Add(AllGoodsList.Calcium);
+			Pack.GoodsList.Add(AllGoodsList.Flower);
+			Pack.GoodsList.Add(AllGoodsList.Lottery);
+			Pack.GoodsList.Add(AllGoodsList.QQStar);
+			Pack.GoodsList.Add(AllGoodsList.Badge);
+			Pack.GoodsNumberList = new System.Collections.ArrayList();
+			for(int i = 0; i < Pack.GoodsList.Count; i++)
+			{
+				Pack.GoodsNumberList.Add(1);
 			}
 		}
 	}

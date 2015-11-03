@@ -59,6 +59,7 @@
     <Compile Include="BuildingForm.Designer.cs">
       <DependentUpon>BuildingForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Eatery.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="CreateHeroForm.cs">
       <SubType>Form</SubType>
