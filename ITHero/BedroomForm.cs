@@ -25,8 +25,8 @@ namespace ITHero
         private void ShowHeroInfo()
         {
             //显示英雄信息（请编码实现）
-            this.lblName.Text = GameManager.GameInfo.Hero.name;
-			if(GameManager.GameInfo.Hero.gender == Gender.Female) 
+            this.lblName.Text = GameManager.GameInfo.Hero.Name;
+			if(GameManager.GameInfo.Hero.Gender == Gender.Female) 
 			{
 				this.lblGander.Text = "女";
 				this.picGander.Image = imgListGander.Images[1];
@@ -36,13 +36,13 @@ namespace ITHero
 				this.lblGander.Text = "男";
 				this.picGander.Image = imgListGander.Images[0];
 			}
-			this.lblMoney.Text = GameManager.GameInfo.Hero.money.ToString();
-			this.lblPrestige.Text = GameManager.GameInfo.Hero.prestige.ToString();
-			this.lblMorality.Text = GameManager.GameInfo.Hero.morality.ToString();
-			this.lblCharm.Text = GameManager.GameInfo.Hero.charm.ToString();
-			this.lblPower.Text = GameManager.GameInfo.Hero.power.ToString();
-			this.lblLuck.Text = GameManager.GameInfo.Hero.luck.ToString();
-			this.lblIntellect.Text = GameManager.GameInfo.Hero.intellect.ToString();
+			this.lblMoney.Text = GameManager.GameInfo.Hero.Money.ToString();
+			this.lblPrestige.Text = GameManager.GameInfo.Hero.Prestige.ToString();
+			this.lblMorality.Text = GameManager.GameInfo.Hero.Morality.ToString();
+			this.lblCharm.Text = GameManager.GameInfo.Hero.Charm.ToString();
+			this.lblPower.Text = GameManager.GameInfo.Hero.Power.ToString();
+			this.lblLuck.Text = GameManager.GameInfo.Hero.Luck.ToString();
+			this.lblIntellect.Text = GameManager.GameInfo.Hero.Intellect.ToString();
             //显示英雄信息面板
             this.pnlHeroInfo.Visible = true;
 
@@ -125,7 +125,7 @@ namespace ITHero
         private void lblBread_Click(object sender, EventArgs e)
         {
             //调用物品对象的使用方法（请编码实现）
-            string strInfo = "";
+			string strInfo = GameManager.GameInfo.AllGoodsList.Bread.Use(GameManager.GameInfo.Hero);
             //显示使用后的数量（请编码实现）
             //显示使用信息
             MessageBox.Show(strInfo, "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -133,7 +133,7 @@ namespace ITHero
         private void lblCalcium_Click(object sender, EventArgs e)
         {
             //调用物品对象的使用方法（请编码实现）
-            string strInfo = "";
+			string strInfo = GameManager.GameInfo.AllGoodsList.Calcium.Use(GameManager.GameInfo.Hero);
             //显示使用后的数量（请编码实现）
             //显示使用信息
             MessageBox.Show(strInfo, "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -141,7 +141,7 @@ namespace ITHero
         private void lblFlower_Click(object sender, EventArgs e)
         {
             //调用物品对象的使用方法（请编码实现）
-            string strInfo = "";
+			string strInfo = GameManager.GameInfo.AllGoodsList.Flower.Use(GameManager.GameInfo.Hero);
             //显示使用后的数量（请编码实现）
             //显示使用信息
             MessageBox.Show(strInfo, "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -149,7 +149,7 @@ namespace ITHero
         private void lblLottery_Click(object sender, EventArgs e)
         {
             //调用物品对象的使用方法（请编码实现）
-            string strInfo = "";
+			string strInfo = GameManager.GameInfo.AllGoodsList.Lottery.Use(GameManager.GameInfo.Hero);
             //显示使用后的数量（请编码实现）
             //显示使用信息
             MessageBox.Show(strInfo, "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -157,7 +157,7 @@ namespace ITHero
         private void lblQQStar_Click(object sender, EventArgs e)
         {
             //调用物品对象的使用方法（请编码实现）
-            string strInfo = "";
+			string strInfo = GameManager.GameInfo.AllGoodsList.QQStar.Use(GameManager.GameInfo.Hero);
             //显示使用后的数量（请编码实现）
             //显示使用信息
             MessageBox.Show(strInfo, "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -165,7 +165,7 @@ namespace ITHero
         private void lblBadge_Click(object sender, EventArgs e)
         {
             //调用物品对象的使用方法（请编码实现）
-            string strInfo = "";
+			string strInfo = GameManager.GameInfo.AllGoodsList.Badge.Use(GameManager.GameInfo.Hero);
             //显示使用后的数量（请编码实现）
             //显示使用信息
             MessageBox.Show(strInfo, "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITHero {
+namespace ITHero
+{
 	///	<summary>
 	///	性别类型
 	///	</summary>
-	enum Gender {
+	enum Gender
+	{
 		Male,	//男
 		Female	//女
 	}
@@ -16,7 +18,8 @@ namespace ITHero {
 	///	<summary>
 	///	物品类型
 	///	</summary>
-	enum GoodsType {
+	enum GoodsType
+	{
 		Prestige,	//加威望
 		Morality,	//加道德
 		Charm,		//加魅力

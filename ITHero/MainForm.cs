@@ -41,8 +41,8 @@ namespace ITHero
             if (txtName.Text.Trim().Length > 0)
             {
                 //保存英雄信息（请编码实现）
-                GameManager.GameInfo.Hero.name = txtName.Text;
-				GameManager.GameInfo.Hero.gender = rdoMale.Checked ? Gender.Male:Gender.Female;
+                GameManager.GameInfo.Hero.Name = txtName.Text;
+				GameManager.GameInfo.Hero.Gender = rdoMale.Checked ? Gender.Male:Gender.Female;
                 //切换下一界面
                 CreateHeroForm chForm = new CreateHeroForm();
                 chForm.StartPosition = FormStartPosition.Manual;    //设置窗体第一次出现的位置

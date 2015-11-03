@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ITHero
 {
-    /// <summary>
-    /// 游戏管理类
-    /// </summary>
-    static class GameManager
-    {
-        //静态游戏对象
-        public static Game GameInfo = new Game();
-    }
+	/// <summary>
+	/// 游戏管理类
+	/// </summary>
+	static class GameManager
+	{
+		//静态游戏对象
+		public static Game GameInfo = new Game();
+	}
 }
