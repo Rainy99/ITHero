@@ -97,8 +97,14 @@ namespace ITHero
         //包裹
         private void lblParcel_Click(object sender, EventArgs e)
         {
+            GoodsWarehouse gw = GameManager.GameInfo.AllGoodsList;
             //显示包裹中所有物品数量
-
+            this.lblBreadNum.Text = "x" + GameManager.GameInfo.Pack.GoodsList[gw.Bread].ToString();
+            this.lblCalciumNum.Text = "x" + GameManager.GameInfo.Pack.GoodsList[gw.Calcium].ToString();
+            this.lblFlowerNum.Text = "x" + GameManager.GameInfo.Pack.GoodsList[gw.Flower].ToString();
+            this.lblLotteryNum.Text = "x" + GameManager.GameInfo.Pack.GoodsList[gw.Lottery].ToString();
+            this.lblQQNum.Text = "x" + GameManager.GameInfo.Pack.GoodsList[gw.QQStar].ToString();
+            this.lblBadgeNum.Text = "x" + GameManager.GameInfo.Pack.GoodsList[gw.Badge].ToString();
             this.pnlParcel.Visible = true;
         }
         //人物状态

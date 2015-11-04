@@ -12,7 +12,7 @@ namespace ITHero
 	/// </summary>
 	class Parcel
 	{
-		public ArrayList  GoodsList;       //物品数组
+		public Hashtable  GoodsList;       //物品数组,物品存为key,数量存为value
 		public ArrayList GoodsNumberList;   //物品数量数组
 	}
 }
