@@ -39,14 +39,14 @@ namespace ITHero
 			//初始化物品库
 			AllGoodsList.Init();
 			//初始化包裹（默认每种物品一个）
-			Pack.GoodsList = new System.Collections.Hashtable();
-			Pack.GoodsList.Add(AllGoodsList.Bread,1);
-			Pack.GoodsList.Add(AllGoodsList.Calcium,1);
-			Pack.GoodsList.Add(AllGoodsList.Flower,1);
-			Pack.GoodsList.Add(AllGoodsList.Lottery,1);
-			Pack.GoodsList.Add(AllGoodsList.QQStar,1);
-			Pack.GoodsList.Add(AllGoodsList.Badge,1);
-			Pack.GoodsNumberList = new System.Collections.ArrayList();
+			Pack.GoodsList = new Dictionary<Goods, int>();
+			Pack.GoodsList.Add(AllGoodsList.Bread, 1);
+			Pack.GoodsList.Add(AllGoodsList.Calcium, 1);
+			Pack.GoodsList.Add(AllGoodsList.Flower, 1);
+			Pack.GoodsList.Add(AllGoodsList.Lottery, 1);
+			Pack.GoodsList.Add(AllGoodsList.QQStar, 1);
+			Pack.GoodsList.Add(AllGoodsList.Badge, 1);
+			Pack.GoodsNumberList = new List<int>();
 			for(int i = 0; i < Pack.GoodsList.Count; i++)
 			{
 				Pack.GoodsNumberList.Add(1);

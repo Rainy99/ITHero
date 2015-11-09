@@ -59,6 +59,7 @@
     <Compile Include="BuildingForm.Designer.cs">
       <DependentUpon>BuildingForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classroom.cs" />
     <Compile Include="Eatery.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="CreateHeroForm.cs">
@@ -77,6 +78,7 @@
     <Compile Include="GameManager.cs" />
     <Compile Include="Goods.cs" />
     <Compile Include="GoodsWarehouse.cs" />
+    <Compile Include="HappyValley.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +91,7 @@
     <Compile Include="OutsideSchoolForm.Designer.cs">
       <DependentUpon>OutsideSchoolForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OutsideSchoolMap.cs" />
     <Compile Include="Parcel.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
@@ -104,6 +107,8 @@
     <Compile Include="SchoolForm.Designer.cs">
       <DependentUpon>SchoolForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SchoolMap.cs" />
+    <Compile Include="SoftwarePark.cs" />
     <EmbeddedResource Include="BedroomForm.resx">
       <DependentUpon>BedroomForm.cs</DependentUpon>
     </EmbeddedResource>

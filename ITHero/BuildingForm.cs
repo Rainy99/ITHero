@@ -12,6 +12,7 @@ namespace ITHero
 {
     public partial class BuildingForm : Form
     {
+		Eatery eatery = new Eatery();
         bool close = false;
         public BuildingForm()
         {
@@ -20,6 +21,7 @@ namespace ITHero
 
         private void BuildingForm_Load(object sender, EventArgs e)
         {
+			eatery.Init();
             //判断显示对应建筑物
             int id = (int)this.Tag;
             switch (id)
@@ -115,7 +117,7 @@ namespace ITHero
         private void lblEateryExit_Click(object sender, EventArgs e)
         {
             //调用食堂返回地图方法（请编码实现）
-
+			eatery.ReturnMap(this.Location.X,this.Location.Y);
             close = true;       //允许关闭本窗体
             this.Close();
         }
@@ -132,6 +134,7 @@ namespace ITHero
         private void lblBreadBuy_Click(object sender, EventArgs e)
         {
             //调用本窗体的Buy方法（请编码实现）
+			this.Buy(GameManager.GameInfo.AllGoodsList.Bread);
         }
         /// <summary>
         /// 卖面包
@@ -139,62 +142,90 @@ namespace ITHero
         private void lblBreadSell_Click(object sender, EventArgs e)
         {
             //调用本窗体的Sell方法（请编码实现）
+			this.Sell(GameManager.GameInfo.AllGoodsList.Bread);
         }
         private void lblCalciumBuy_Click(object sender, EventArgs e)
         {
             //调用本窗体的Buy方法（请编码实现）
+			this.Buy(GameManager.GameInfo.AllGoodsList.Calcium);
         }
         private void lblCalciumSell_Click(object sender, EventArgs e)
         {
             //调用本窗体的Sell方法（请编码实现）
+			this.Sell(GameManager.GameInfo.AllGoodsList.Calcium);
         }
         private void lblFlowerBuy_Click(object sender, EventArgs e)
         {
             //调用本窗体的Buy方法（请编码实现）
+			this.Buy(GameManager.GameInfo.AllGoodsList.Flower);
         }
         private void lblFlowerSell_Click(object sender, EventArgs e)
         {
             //调用本窗体的Sell方法（请编码实现）
+			this.Sell(GameManager.GameInfo.AllGoodsList.Flower);
         }
         private void lblLotteryBuy_Click(object sender, EventArgs e)
         {
             //调用本窗体的Buy方法（请编码实现）
-
+			this.Buy(GameManager.GameInfo.AllGoodsList.Lottery);
         }
         private void lblLotterySell_Click(object sender, EventArgs e)
         {
             //调用本窗体的Sell方法（请编码实现）
+			this.Sell(GameManager.GameInfo.AllGoodsList.Lottery);
         }
         private void lblQQStarBuy_Click(object sender, EventArgs e)
         {
             //调用本窗体的Buy方法（请编码实现）
-
+			this.Buy(GameManager.GameInfo.AllGoodsList.QQStar);
         }
         private void lblQQStarSell_Click(object sender, EventArgs e)
         {
             //调用本窗体的Sell方法（请编码实现）
+			this.Sell(GameManager.GameInfo.AllGoodsList.QQStar);
         }
         private void lblBadgeBuy_Click(object sender, EventArgs e)
         {
             //调用本窗体的Buy方法（请编码实现）
-
+			this.Buy(GameManager.GameInfo.AllGoodsList.Badge);
         }
         private void lblBadgeSell_Click(object sender, EventArgs e)
         {
             //调用本窗体的Sell方法（请编码实现）
+			this.Sell(GameManager.GameInfo.AllGoodsList.Badge);
         }
 		/// <summary>
 		/// 回购物品（请编码实现）
 		/// </summary>
 		/// <param name="goods">物品对象</param>
-		private void Buy()
-		{ }
+		private void Buy(Goods goods)
+		{
+			if(eatery.Sell(goods)) 
+			{
+				lblHeroMoney.Text = GameManager.GameInfo.Hero.Money.ToString();		//显示更新后玩家金钱
+				MessageBox.Show("购买了1个" + goods.Name + "!", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);		
+			}
+			else 
+			{
+				MessageBox.Show("你是不是忘记带钱了!", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			}
+		}
 		/// <summary>
 		/// 出售物品（请编码实现）
 		/// </summary>
 		/// <param name="goods">物品对象</param>
-		private void Sell()
-		{ }
+		private void Sell(Goods goods)
+		{
+			if(eatery.Buy(goods)) 
+			{
+				lblHeroMoney.Text = GameManager.GameInfo.Hero.Money.ToString();		//显示更新后玩家金钱
+				MessageBox.Show("售出了1个" + goods.Name + "!", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);	
+			}
+			else
+			{
+				MessageBox.Show("抱歉，你身上没有" + goods.Name + "了！", "系统提示", MessageBoxButtons.OK, MessageBoxIcon.Information);		
+			}
+		}
         #endregion
         #region 软件园功能区
         /// <summary>
