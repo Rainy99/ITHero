@@ -11,6 +11,7 @@ namespace ITHero
 	/// </summary>
 	class Game
 	{
+		public BaseMap CurrentMap;	//当前地图对象
 		public GoodsWarehouse AllGoodsList = new GoodsWarehouse();     //物品库对象
 		public Player Hero;         //英雄对象
 		public Parcel Pack;         //背包对象

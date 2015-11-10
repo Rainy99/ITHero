@@ -63,6 +63,7 @@ namespace ITHero
         /// </summary>
         private void lblClassroom_Click(object sender, EventArgs e)
         {
+			GameManager.GameInfo.CurrentMap = new SchoolMap(1,"学校地图");	//保存学校地图对象
             BuildingForm bForm = new BuildingForm();
             bForm.StartPosition = FormStartPosition.Manual;    //设置窗体第一次出现的位置
             bForm.Location = new Point(this.Location.X, this.Location.Y);   //设置窗体出现的坐标

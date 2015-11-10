@@ -10,38 +10,17 @@ namespace ITHero
 	/// <summary>
 	/// 食堂类
 	/// </summary>
-	class Eatery
+	class Eatery:Building
 	{
 		public Eatery()
 		{
 			this.GoodsList = new Dictionary<string, Goods>();
 		}
-		public Eatery(int id, string name, string introduction)
+		public Eatery(int id, string name, string introduction):base(id,name,introduction)
 		{
-			this.Id = id;
-			this.Name = name;
-			this.Introduction = introduction;
-			this.GoodsList = new Dictionary<string, Goods>();
+			this.GoodsList = new Dictionary<string,Goods>();
 		}
-		private int id;
-		private string name;
-		private string introduction;
-		private Dictionary<string, Goods> GoodsList;
-		public int Id
-		{
-			get { return id; }
-			set { id = value; }
-		}
-		public string Name
-		{
-			get { return name; }
-			set { name = value; }
-		}
-		public string Introduction
-		{
-			get { return introduction; }
-			set { introduction = value; }
-		}
+		public Dictionary<string, Goods> GoodsList;
 		///<summary>
 		///返回地图
 		///</summary>

@@ -76,7 +76,7 @@ namespace ITHero
         private void lblExit_Click(object sender, EventArgs e)
         {
             //调用教学楼的返回地图方法（请编码实现）
-
+			((Classroom)GameManager.GameInfo.CurrentMap.BuildsList[1000]).ReturnMap(this.Location.X,this.Location.Y);
             close = true;       //允许关闭本窗体
             this.Close();
         }
@@ -117,7 +117,7 @@ namespace ITHero
         private void lblEateryExit_Click(object sender, EventArgs e)
         {
             //调用食堂返回地图方法（请编码实现）
-			eatery.ReturnMap(this.Location.X,this.Location.Y);
+			((Eatery)GameManager.GameInfo.CurrentMap.BuildsList[1001]).ReturnMap(this.Location.X,this.Location.Y);
             close = true;       //允许关闭本窗体
             this.Close();
         }
@@ -244,7 +244,7 @@ namespace ITHero
         private void lblSoftwareParkExit_Click(object sender, EventArgs e)
         {
             //调用软件园的返回地图方法（请编码实现）
-
+			((SoftwarePark)GameManager.GameInfo.CurrentMap.BuildsList[2000]).ReturnMap(this.Location.X,this.Location.Y);
             close = true;       //允许关闭本窗体
             this.Close();
         }
@@ -264,7 +264,7 @@ namespace ITHero
         private void lblHappyValleyExit_Click(object sender, EventArgs e)
         {
             //调用游乐园的返回地图方法（请编码实现）
-
+			((HappyValley)GameManager.GameInfo.CurrentMap.BuildsList[2001]).ReturnMap(this.Location.X, this.Location.Y);
             close = true;       //允许关闭本窗体
             this.Close();
         }

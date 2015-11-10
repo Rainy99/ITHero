@@ -47,12 +47,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseMap.cs" />
     <Compile Include="BedroomForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BedroomForm.Designer.cs">
       <DependentUpon>BedroomForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Building.cs" />
     <Compile Include="BuildingForm.cs">
       <SubType>Form</SubType>
     </Compile>
