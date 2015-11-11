@@ -14,16 +14,17 @@ namespace ITHero
 	{
 		public SchoolMap()
 		{
-			Init();
+			
 		}
 		public SchoolMap(int id,string name) : base(id,name)
 		{
-			Init();
+			
 		}
+
 		/// <summary>
 		/// 初始化所有建筑物
 		/// </summary>
-		public void Init()
+		protected override void Init()
 		{
 			this.BuildsList.Clear();
 			Classroom classroom = new Classroom(1000,"教学楼","好好学习，天天向上");

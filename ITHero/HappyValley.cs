@@ -20,7 +20,7 @@ namespace ITHero
 		///</summary>
 		///<param name="x">界面出现的横坐标</param>
 		///<param name="y">界面出现的纵坐标</param>
-		public void ReturnMap(int x, int y)
+		public override void ReturnMap(int x, int y)
 		{
 			OutsideSchoolForm osForm = new OutsideSchoolForm();
 			osForm.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

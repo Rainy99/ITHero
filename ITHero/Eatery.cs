@@ -26,7 +26,7 @@ namespace ITHero
 		///</summary>
 		///<param name="x">横坐标</param>
 		///<param name="y">纵坐标</param>
-		public void ReturnMap(int x, int y)
+		public override void ReturnMap(int x, int y)
 		{
 			SchoolForm sForm = new SchoolForm();
 			sForm.StartPosition = System.Windows.Forms.FormStartPosition.Manual;	//设置窗体起始位置

@@ -14,16 +14,16 @@ namespace ITHero
 	{
 		public OutsideSchoolMap()
 		{
-			Init();
+			
 		}
 		public OutsideSchoolMap(int id,string name):base(id,name)
 		{
-			Init();
+			
 		}
 		///<summary>
 		/// 初始化所有建筑物
 		/// </summary>
-		public void Init()
+		protected override void Init()
 		{
 			this.BuildsList.Clear();
 			SoftwarePark sp = new SoftwarePark(2000,"软件园","充满机遇和挑战，实现梦想的地方");

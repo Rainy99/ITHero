@@ -53,8 +53,8 @@ namespace ITHero
         /// </summary>
         private void lblSoftwarePark_Click(object sender, EventArgs e)
         {
-			GameManager.GameInfo.CurrentMap = new SchoolMap(2,"校外地图");	//保存学校地图对象
-            BuildingForm bForm = new BuildingForm();
+			GameManager.GameInfo.CurrentMap = new OutsideSchoolMap(2,"校外地图");	//保存学校地图对象
+			BuildingForm bForm = new BuildingForm();
             bForm.StartPosition = FormStartPosition.Manual;    //设置窗体第一次出现的位置
             bForm.Location = new Point(this.Location.X, this.Location.Y);   //设置窗体出现的坐标
             bForm.Tag = 2000;
@@ -68,7 +68,7 @@ namespace ITHero
         /// </summary>
         private void lblHappyValley_Click(object sender, EventArgs e)
         {
-			GameManager.GameInfo.CurrentMap = new SchoolMap(2, "校外地图");	//保存学校地图对象
+			GameManager.GameInfo.CurrentMap = new OutsideSchoolMap(2, "校外地图");	//保存学校地图对象
             BuildingForm bForm = new BuildingForm();
             bForm.StartPosition = FormStartPosition.Manual;    //设置窗体第一次出现的位置
             bForm.Location = new Point(this.Location.X, this.Location.Y);   //设置窗体出现的坐标

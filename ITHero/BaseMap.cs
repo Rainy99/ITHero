@@ -15,6 +15,7 @@ namespace ITHero
 		public BaseMap()
 		{
 			this.BuildsList = new Dictionary<int,Building>();
+			Init();
 		}
 		public Dictionary<int,Building> BuildsList;
 		public BaseMap(int id,string name):this()
@@ -35,5 +36,7 @@ namespace ITHero
 			get { return name; }
 			set { name = value; }
 		}
+		protected virtual void Init()
+		{}
 	}
 }
