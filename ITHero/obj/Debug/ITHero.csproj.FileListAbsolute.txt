@@ -143,8 +143,8 @@ G:\workspace\trunk\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
 G:\workspace\trunk\ITHero\bin\Debug\ITHero.exe
 G:\workspace\trunk\ITHero\bin\Debug\ITHero.pdb
 F:\workspace\trunk\ITHero\bin\Debug\ITHero.exe.config
-F:\workspace\trunk\ITHero\obj\Debug\ITHero.exe
-F:\workspace\trunk\ITHero\obj\Debug\ITHero.pdb
+F:\workspace\trunk\ITHero\bin\Debug\ITHero.exe
+F:\workspace\trunk\ITHero\bin\Debug\ITHero.pdb
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.csprojResolveAssemblyReference.cache
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.BedroomForm.resources
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.BuildingForm.resources
@@ -155,5 +155,5 @@ F:\workspace\trunk\ITHero\obj\Debug\ITHero.OutsideSchoolForm.resources
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.Properties.Resources.resources
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.SchoolForm.resources
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
-F:\workspace\trunk\ITHero\bin\Debug\ITHero.exe
-F:\workspace\trunk\ITHero\bin\Debug\ITHero.pdb
+F:\workspace\trunk\ITHero\obj\Debug\ITHero.exe
+F:\workspace\trunk\ITHero\obj\Debug\ITHero.pdb

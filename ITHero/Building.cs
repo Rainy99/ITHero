@@ -9,10 +9,8 @@ namespace ITHero
 	/// <summary>
 	/// 建筑类父类
 	/// </summary>
-	class Building
+	abstract class Building
 	{	
-		public virtual void ReturnMap(int x,int y)
-		{}
 		public Building()
 		{}
 		public Building(int id,string name,string introduction)
@@ -39,5 +37,6 @@ namespace ITHero
 			get { return introduction; }
 			set { introduction = value; }
 		}
+		public abstract void ReturnMap(int x,int y);
 	}
 }

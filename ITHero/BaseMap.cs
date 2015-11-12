@@ -10,14 +10,14 @@ namespace ITHero
 	/// <summary>
 	/// 地图类父类
 	/// </summary>
-	class BaseMap
+	abstract class BaseMap
 	{
+		public Dictionary<int, Building> BuildsList;
 		public BaseMap()
 		{
 			this.BuildsList = new Dictionary<int,Building>();
 			Init();
 		}
-		public Dictionary<int,Building> BuildsList;
 		public BaseMap(int id,string name):this()
 		{
 			this.Id = id;
@@ -36,7 +36,6 @@ namespace ITHero
 			get { return name; }
 			set { name = value; }
 		}
-		protected virtual void Init()
-		{}
+		protected abstract void Init();
 	}
 }

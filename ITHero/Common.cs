@@ -5,7 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ITHero
-{
+{	
+	/// <summary>
+	/// 运气接口
+	/// </summary>
+	interface ILuck
+	{
+		string Luck();
+	}
 	///	<summary>
 	///	性别类型
 	///	</summary>
