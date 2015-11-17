@@ -62,6 +62,19 @@ namespace ITHero
         /// </summary>
         private void lblLoad_Click(object sender, EventArgs e)
         {
+			//获取当前应用程序下的data文件夹
+			ofDlg.InitialDirectory = Application.StartupPath + @"\data\";
+			DialogResult result = ofDlg.ShowDialog();
+			if(result == DialogResult.OK)
+			{
+				//读取玩家存档信息
+				GameManager.Load(ofDlg.FileName);
+				//跳转到寝室
+				BedroomForm bForm = new BedroomForm();
+				bForm.StartPosition = FormStartPosition.Manual;
+				bForm.Location = new Point(this.Location.X, this.Location.Y);
+				bForm.Show();
+			}
         }
         /// <summary>
         /// 游戏选项

@@ -10,6 +10,7 @@ namespace ITHero
 	/// <summary>
 	/// 地图类父类
 	/// </summary>
+	[Serializable]
 	abstract class BaseMap
 	{
 		public Dictionary<int, Building> BuildsList;

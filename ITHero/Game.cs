@@ -9,6 +9,7 @@ namespace ITHero
 	/// <summary>
 	/// 保存当前游戏信息
 	/// </summary>
+	[Serializable]
 	class Game
 	{
 		public BaseMap CurrentMap;	//当前地图对象

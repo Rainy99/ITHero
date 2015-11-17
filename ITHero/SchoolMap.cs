@@ -10,6 +10,7 @@ namespace ITHero
 	/// <summary>
 	/// 学校地图类
 	/// </summary>
+	[Serializable]
 	class SchoolMap : BaseMap
 	{
 		public SchoolMap()

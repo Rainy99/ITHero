@@ -9,6 +9,7 @@ namespace ITHero
 	/// <summary>
 	/// 物品类
 	/// </summary>
+	[Serializable]
 	class Goods
 	{
 		private string name;		//物品名称

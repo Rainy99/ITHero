@@ -9,6 +9,7 @@ namespace ITHero
 	/// <summary>
 	/// 软件园类
 	/// </summary>
+	[Serializable]
 	class SoftwarePark:Building
 	{
 		public SoftwarePark()

@@ -10,6 +10,7 @@ namespace ITHero
 	/// <summary>
 	/// 包裹类
 	/// </summary>
+	[Serializable]
 	class Parcel
 	{
 		public Dictionary<Goods,int>  GoodsList;       //物品数组,物品存为key,数量存为value

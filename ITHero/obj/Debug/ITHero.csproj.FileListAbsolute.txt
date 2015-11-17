@@ -157,3 +157,6 @@ F:\workspace\trunk\ITHero\obj\Debug\ITHero.SchoolForm.resources
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.csproj.GenerateResource.Cache
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.exe
 F:\workspace\trunk\ITHero\obj\Debug\ITHero.pdb
+C:\Users\zhouy\Documents\GitHub\ITHero\ITHero\bin\Debug\ITHero.exe.config
+C:\Users\zhouy\Documents\GitHub\ITHero\ITHero\obj\Debug\ITHero.exe
+C:\Users\zhouy\Documents\GitHub\ITHero\ITHero\obj\Debug\ITHero.pdb

@@ -9,6 +9,7 @@ namespace ITHero
 	/// <summary>
 	/// 物品库类
 	/// </summary>
+	[Serializable]
 	class GoodsWarehouse
 	{
 		public Goods Bread;		//面包

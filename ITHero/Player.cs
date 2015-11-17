@@ -9,6 +9,7 @@ namespace ITHero
 	/// <summary>
 	/// 玩家英雄类
 	/// </summary>
+	[Serializable]
 	class Player
 	{
 		private string name;         //姓名
